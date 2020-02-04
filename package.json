@@ -36,6 +36,7 @@
   },
   "dependencies": {
     "bootstrap": "^4.4.1",
+    "gatsby": "^2.19.12",
     "jquery": "^3.4.1",
     "popper.js": "^1.16.1",
     "tilt.js": "^1.2.1"
