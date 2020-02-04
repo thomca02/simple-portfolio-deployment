@@ -303,7 +303,7 @@ Because this template use Webpack maybe you can get errors during deployment, Pl
 
 ## Status
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/75600296-89eb-4640-9e7e-fa87fba7ce76/deploy-status)](https://app.netlify.com/sites/simplfolio/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/168ed331-1f1a-4b15-b3c3-4710c4f1aa0a/deploy-status)](https://app.netlify.com/sites/simple-portfolio-live/deploys))
 
 ## License 📄
 
