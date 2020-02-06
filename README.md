@@ -305,6 +305,8 @@ Because this template use Webpack maybe you can get errors during deployment, Pl
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/168ed331-1f1a-4b15-b3c3-4710c4f1aa0a/deploy-status)](https://app.netlify.com/sites/simple-portfolio-live/deploys)
 
+[![Run on Repl.it](https://repl.it/badge/github/thomca02/simple-portfolio-deployment)](https://repl.it/github/thomca02/simple-portfolio-deployment)
+
 ## License 📄
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
