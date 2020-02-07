@@ -1,4 +1,4 @@
-# Simplefolio ⚡️ [![GitHub](https://img.shields.io/github/license/thomca02/simple-portfolio-deployment?color=blue)](https://github.com/cobidev/simplefolio/blob/master/LICENSE.md) ![GitHub stars](https://img.shields.io/github/stars/thomca02/simple-portfolio-deployment) ![GitHub forks](https://img.shields.io/github/forks/thomca02/simple-portfolio-deployment)
+# Simple-Portfolio ⚡️ [![GitHub](https://img.shields.io/github/license/thomca02/simple-portfolio-deployment?color=blue)](https://github.com/cobidev/simplefolio/blob/master/LICENSE.md) ![GitHub stars](https://img.shields.io/github/stars/thomca02/simple-portfolio-deployment) ![GitHub forks](https://img.shields.io/github/forks/thomca02/simple-portfolio-deployment)
 
 ## A minimal portfolio template for Developers!
 
