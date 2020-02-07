@@ -5,7 +5,8 @@ h1 {
 }
 
 p,
-a {
+a,
+button {
   font-family: 'Montserrat', sans-serif;
   font-size: $default-font-size;
 }
@@ -18,7 +19,19 @@ a:active {
   text-decoration: none;
 }
 
+button,
+button:link,
+button:hover,
+button:visited,
+button:active {
+  text-decoration: none;
+}
+
 a:hover {
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
   transition: all 0.3s ease-in-out;
 }
 

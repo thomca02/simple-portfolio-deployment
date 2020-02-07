@@ -11,7 +11,7 @@
     color: darken(white, 50%);
     font-size: 1.3rem;
 
-    a {
+    a, button {
       color: darken(white, 50%);
       font-size: 1.3rem;
       transition: all 0.4s;
@@ -41,7 +41,7 @@
   flex-direction: row;
   justify-content: center;
 
-  a {
+  a, button {
     display: flex;
     flex-direction: column;
     justify-content: center;

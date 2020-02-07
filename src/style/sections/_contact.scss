@@ -31,10 +31,79 @@
     a {
       font-size: 2.4rem;
 
+    &__text,
+    button {
+      font-size: 1.6rem;
+    }
+
       // Responsive for contact text
       @include respond(phone) {
         font-size: 2rem;
       }
     }
   }
+}
+
+.invalid-feedback {
+  color: $dark-blue-text;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+#form1 {
+  margin: 5rem 20rem;
+  font-size: 1.6rem;
+
+  @include respond(tab-land) {
+    margin: 3rem 15rem;
+  }
+
+  @include respond(tab-port) {
+    margin: 3rem 10rem;
+  }
+
+  @include respond(phone) {
+    margin: 3rem 9rem;
+  }
+
+  @include respond(phone-xs) {
+    margin: 3rem 8rem;
+  }
+}
+
+input.form-control {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding: 2rem 3rem;
+  font-size: 1.2rem;
+}
+
+select.form-control {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  height: 4.3rem;
+  padding-left: 3rem;
+  font-size: 1.2rem;
+}
+
+.label-bottom1, .label-bottom2, .label-bottom3, .label-bottom4 {
+
+  @include respond(tab-land) {
+    margin-top: 0.5rem;
+  }
+
+  @include respond(tab-port) {
+    margin-top: 2.0rem;
+  }
+
+  @include respond(phone) {
+    margin-top: 2.5rem;
+  }
+
+  @include respond(phone-xs) {
+    margin-top: 2.5rem;
+  }
+
 }
