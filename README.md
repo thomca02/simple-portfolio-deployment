@@ -44,10 +44,10 @@ From your command line, clone and run Simplefolio:
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/cobidev/simplefolio
+$ git clone https://github.com/thomca02/simple-portfolio-deployment
 
 # Go into the repository
-$ cd simplefolio
+$ cd simple-portfolio-deployment
 
 # Remove current origin repository
 $ git remote remove origin
@@ -96,7 +96,7 @@ Go to `/src/template.html` and fill your information, they are 5 sections:
     <h1 class="hero-title" class="load-hidden">
       Hi, my name is <span class="text-color-main">Your Name</span>
       <br />
-      I'm the Unknow Developer.
+      I'm the Unknown Developer.
     </h1>
     <p class="hero-cta" class="load-hidden">
       <a class="cta-btn cta-btn--hero" href="#about">Know more</a>
@@ -283,11 +283,6 @@ Because this template use Webpack maybe you can get errors during deployment, Pl
 
 **[WATCH NOW MY STEP-BY-STEP TUTORIAL FOR DEPLOYMENT](https://www.youtube.com/watch?v=soaG3GNSxJY)**
 
-## Others versions 👥
-
-[Gatsby Simplefolio](https://github.com/cobidev/gatsby-simplefolio) by [Jacobo Martinez](https://github.com/cobidev)\
-[Ember.js Simplefolio](https://github.com/sernadesigns/simplefolio-ember) by [Michael Serna](https://github.com/sernadesigns)
-
 ## Technologies used 🛠️
 
 - [Webpack](https://webpack.js.org/concepts/) - Static module bundler
@@ -297,7 +292,7 @@ Because this template use Webpack maybe you can get errors during deployment, Pl
 
 ## Authors
 
-- **Jacobo Martinez** - [https://github.com/cobidev](https://github.com/cobidev)
+- **Corey Thompson** - [https://github.com/thomca02](https://github.com/thomca02)
 
 ## Status
 
