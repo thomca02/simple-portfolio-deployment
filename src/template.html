@@ -39,8 +39,8 @@
           Web Developer
         </h1>
         <p class="hero-cta" class="load-hidden">
-          <a class="cta-btn cta-btn--hero" href="#about">Know more</a>
-          <a class="cta-btn cta-btn--hero2" href="#">The Dark Side...</a>
+          <a class="cta-btn cta-btn--hero" href="#about">Know More</a>
+          <a class="cta-btn cta-btn--hero2" href="#">The Dark Side</a>
         </p>
       </div>
     </div>
@@ -204,34 +204,36 @@
           <p class="contact-wrapper__text">
             [GET TO KNOW ME MORE?]
           </p>
-            <form id="form1" class="needs-validation" novalidate>
+            <form id="form1" class="needs-validation" onsubmit="return validate(this);" novalidate>
               <div class="form-row mb-4">
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
                   <label class="label-bottom1" for="validationCustom01">First Name</label>
-                  <input type="text" class="form-control" id="validationCustom01" placeholder="First Name" value="" required>
+                  <input pattern=".{2,20}" type="text" class="form-control name_fields" id="validationCustom01" placeholder="First Name" value="" name="first_name" onkeypress="return (event.charCode > 64 &&
+                  event.charCode < 91) || (event.charCode > 96 && event.charCode < 123)" required>
                   <div class="invalid-feedback">
-                  Please enter a valid first name
+                  Please enter a valid first name (2-20 characters)
                   </div>
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
                   <label class="label-bottom2" for="validationCustom02">Last Name</label>
-                  <input type="text" class="form-control" id="validationCustom02" placeholder="Last Name" value="" required>
+                  <input pattern=".{2,20}" type="text" class="form-control name_fields" id="validationCustom02" placeholder="Last Name" value="" name="last_name_" onkeypress="return (event.charCode > 64 &&
+                  event.charCode < 91) || (event.charCode > 96 && event.charCode < 123)" required>
                   <div class="invalid-feedback">
-                  Please enter a valid last name
+                  Please enter a valid last name (2-20 characters)
                   </div>
                 </div>
               </div>
               <div class="form-row">
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
                   <label class="label-bottom3" for="validationCustom05">Email</label>
-                  <input type="email" class="form-control" id="validationCustom05" placeholder="example@email.com" required>
+                  <input type="email" class="form-control" id="validationCustom05" placeholder="example@email.com" name="email" required>
                   <div class="invalid-feedback">
-                  Please enter a valid email address
+                  Please enter a valid email address (ie: email01@yahoo.com)
                   </div>
                 </div>
                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
                   <label class="label-bottom4" for="validationCustom04">State</label>
-                  <select class="form-control custom-select" id="validationCustom04" placeholder="State" required>
+                  <select class="form-control custom-select" id="validationCustom04" placeholder="State" name="state" required>
                     <option value="">--Select--</option>
                     <option value="AL">Alabama</option>
                   	<option value="AK">Alaska</option>
@@ -294,7 +296,7 @@
               <div class="form-row">
                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
                   <label class="label-bottom5" for="validationCustom03">Questions/Anything?</label>
-                  <textarea type="text" class="form-control" placeholder="Go for it!"></textarea>
+                  <textarea type="text" class="form-control" placeholder="Go for it!" name="question"></textarea>
                 </div>
               </div>
               <span class="d-flex mt-4">
@@ -328,8 +330,7 @@
 
         <!-- If you give me some credit, will be huge for me :) -->
         <p class="footer__text">
-          © 2020 - Modified by <a href="https://github.com/thomca02" target="_blank">Corey Thompson</a>
-          <br>Template designed by <a href="https://github.com/cobidev" target="_blank">Jacobo Martinez</a>
+          © 2020 - Modified and tested by <a href="https://github.com/thomca02" target="_blank">Corey Thompson</a>
         </p>
     </footer>
     <!-- /END Footer Section -->
