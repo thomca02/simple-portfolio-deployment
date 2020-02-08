@@ -55,19 +55,23 @@
   font-size: 1.6rem;
 
   @include respond(tab-land) {
-    margin: 3rem 15rem;
+    margin: 3rem 8rem;
   }
 
   @include respond(tab-port) {
     margin: 3rem 10rem;
   }
 
+  @include respond(tab-port-sm) {
+    margin: 4rem 6rem;
+  }
+
   @include respond(phone) {
-    margin: 3rem 9rem;
+    margin: 3rem 3rem;
   }
 
   @include respond(phone-xs) {
-    margin: 3rem 8rem;
+    margin: 3rem 2rem;
   }
 }
 
@@ -88,10 +92,30 @@ select.form-control {
   font-size: 1.2rem;
 }
 
-.label-bottom1, .label-bottom2, .label-bottom3, .label-bottom4 {
+textarea.form-control {
+  max-height: 10rem;
+  min-height: 4rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  height: 4.3rem;
+  padding-left: 3rem;
+  padding-top: 1.2rem;
+  font-size: 1.2rem;
+}
+
+.label-bottom5 {
+  margin-top: 2rem;
+}
+
+.label-bottom1, .label-bottom2, .label-bottom3, .label-bottom4, .label-bottom5 {
+
+  @include respond(big-desktop) {
+    margin-top: 1.5rem;
+  }
 
   @include respond(tab-land) {
-    margin-top: 0.5rem;
+    margin-top: 1.5rem;
   }
 
   @include respond(tab-port) {
@@ -105,5 +129,4 @@ select.form-control {
   @include respond(phone-xs) {
     margin-top: 2.5rem;
   }
-
 }
