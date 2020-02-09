@@ -58,7 +58,7 @@ export default function() {
     origin: 'bottom'
   });
 
-  // Example starter JavaScript for disabling form submissions if there are invalid fields
+  // Disabling form submission with simple field validation
   (function() {
     'use strict';
     window.addEventListener('load', function() {
