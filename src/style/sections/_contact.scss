@@ -44,64 +44,29 @@
   }
 }
 
-.invalid-feedback {
-  color: $dark-blue-text;
-  font-weight: bold;
-  font-size: 1rem;
-}
-
-#form1 {
-  margin: 5rem 20rem;
+#mc-embedded-subscribe-form {
+  margin: 1.5rem 20rem;
   font-size: 1.6rem;
 
   @include respond(tab-land) {
-    margin: 3rem 8rem;
+    margin: 1.5rem 8rem;
   }
 
   @include respond(tab-port) {
-    margin: 3rem 10rem;
+    margin: 1.5rem 10rem;
   }
 
   @include respond(tab-port-sm) {
-    margin: 4rem 6rem;
+    margin: 1.5rem 6rem;
   }
 
   @include respond(phone) {
-    margin: 3rem 3rem;
+    margin: 1.5rem 3rem;
   }
 
   @include respond(phone-xs) {
-    margin: 3rem 2rem;
+    margin: 1.5rem 2rem;
   }
-}
-
-input.form-control {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  padding: 2rem 3rem;
-  font-size: 1.2rem;
-}
-
-select.form-control {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  height: 4.3rem;
-  padding-left: 3rem;
-  font-size: 1.2rem;
-}
-
-textarea.form-control {
-  max-height: 10rem;
-  min-height: 4rem;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  height: 4.3rem;
-  padding-left: 3rem;
-  padding-top: 1.2rem;
-  font-size: 1.2rem;
 }
 
 .label-bottom5 {
@@ -129,4 +94,13 @@ textarea.form-control {
   @include respond(phone-xs) {
     margin-top: 2.5rem;
   }
+}
+
+.asterisk {
+  color: $dark-blue-text !important;
+}
+
+select {
+  padding-left: 1rem !important;
+  height: 4.3rem;
 }
